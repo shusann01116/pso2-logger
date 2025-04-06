@@ -24,3 +24,5 @@ jobs:
         run: pnpm install
       - name: Check Types
         run: pnpm run ci
+      - name: Run Tests
+        run: pnpm run test-ci
