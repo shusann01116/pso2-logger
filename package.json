@@ -9,8 +9,10 @@
     "start": "next start",
     "lint": "next lint",
     "format": "prettier --write .",
+    "format-ci": "prettier --check .",
     "tsc": "tsc --noEmit",
-    "tauri": "tauri"
+    "tauri": "tauri",
+    "ci": "pnpm tsc && pnpm format-ci && pnpm lint && pnpm build"
   },
   "dependencies": {
     "@radix-ui/react-slot": "1.1.2",
