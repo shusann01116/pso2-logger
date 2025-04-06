@@ -1,7 +1,31 @@
-# Tauri + React + Typescript
+# PSO2 Logger
 
-This template should help get you started developing with Tauri, React and Typescript in Vite.
+Utility app for players for better qol in PSO2 like logging, tracking items, etc.
 
-## Recommended IDE Setup
+## Development
 
-- [VS Code](https://code.visualstudio.com/) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
+Use [mise](https://mise.jdx.dev/getting-started.html) to manage dependencies.
+
+Expected to be installed all dependencies as per [tauri docs](https://tauri.app/start/prerequisites/).
+
+Use winget or scoop to install mise.
+
+```powershell
+winget install jdx.mise
+```
+
+```powershell
+scoop install mise
+```
+
+Install dependencies with mise.
+
+```powershell
+mise install
+```
+
+Run the app with tauri dev to start the dev server.
+
+```powershell
+tauri dev
+```
