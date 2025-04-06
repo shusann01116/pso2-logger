@@ -5,6 +5,7 @@ import tseslint from "typescript-eslint";
 import nextPlugin from "@next/eslint-plugin-next";
 import reactPlugin from "eslint-plugin-react";
 import hooksPlugin from "eslint-plugin-react-hooks";
+import eslintConfigPrettier from "eslint-config-prettier/flat";
 
 export default defineConfig([
   globalIgnores(["src-tauri/**", "node_modules/**", ".next/**"]),
@@ -34,4 +35,5 @@ export default defineConfig([
       "@next/next/no-img-element": "error",
     },
   },
+  eslintConfigPrettier,
 ]);
