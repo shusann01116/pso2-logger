@@ -1,4 +1,4 @@
 [tools]
-node = "23"
+node = "23.11.0"
 pnpm = "10"
 rust = "1.86.0"
