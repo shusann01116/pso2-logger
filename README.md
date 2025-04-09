@@ -12,9 +12,6 @@ Use winget or scoop to install mise.
 
 ```powershell
 winget install jdx.mise
-```
-
-```powershell
 scoop install mise
 ```
 
@@ -23,6 +20,8 @@ Install dependencies with mise.
 ```powershell
 mise install
 ```
+
+Also follow the instructions on the [tauri docs](https://tauri.app/start/prerequisites/) to install the other dependencies.
 
 Run the app with tauri dev to start the dev server.
 
