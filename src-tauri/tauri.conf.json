@@ -10,13 +10,6 @@
     "frontendDist": "../out"
   },
   "app": {
-    "windows": [
-      {
-        "title": "pso2-logger",
-        "width": 800,
-        "height": 600
-      }
-    ],
     "security": {
       "csp": null
     }
