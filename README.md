@@ -26,5 +26,5 @@ Also follow the instructions on the [tauri docs](https://tauri.app/start/prerequ
 Run the app with tauri dev to start the dev server.
 
 ```powershell
-tauri dev
+pnpm tauri dev
 ```
